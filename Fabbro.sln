@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fabbro.Console", "Fabbro.Console\Fabbro.Console.csproj", "{25C18C77-123C-438C-9044-5475F7732C4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fabbro.Shared", "Fabbro.Shared\Fabbro.Shared.csproj", "{ED26B8FF-EEA4-482E-A62F-BBF0C84C03D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25C18C77-123C-438C-9044-5475F7732C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25C18C77-123C-438C-9044-5475F7732C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25C18C77-123C-438C-9044-5475F7732C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25C18C77-123C-438C-9044-5475F7732C4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED26B8FF-EEA4-482E-A62F-BBF0C84C03D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED26B8FF-EEA4-482E-A62F-BBF0C84C03D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED26B8FF-EEA4-482E-A62F-BBF0C84C03D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED26B8FF-EEA4-482E-A62F-BBF0C84C03D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
